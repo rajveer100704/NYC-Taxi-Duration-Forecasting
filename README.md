@@ -19,21 +19,34 @@ Key highlights:
 ## Folder Structure
 NYC-Taxi-Duration-Forecasting/
 
-│
+
 ├── data/
-│   ├── raw/                 # Original datasets (CSV)
+│
+├── raw/                 # Original datasets (CSV)
+
 │   ├── processed/           # Cleaned / preprocessed data
+
 │
 ├── notebooks/
+
 │   └── NYC_Taxi_Analysis.ipynb   # EDA and initial experiments
+
 │
 ├── src/
+
 │   ├── data_preprocessing.py      # Data cleaning & feature engineering
+
 │   ├── model_training.py          # MLlib model training scripts
+
 │   ├── model_evaluation.py        # Evaluation metrics and validation
+
 │   └── utils.py                   # Helper functions
+
 │
 ├── requirements.txt               # Python dependencies
+
 ├── .gitignore
+
 ├── README.md
+
 └── LICENSE
